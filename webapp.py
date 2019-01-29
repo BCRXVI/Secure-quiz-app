@@ -7,17 +7,17 @@ def render_main():
     return render_template('layout.html')
 
 
-@app.route("/")
+@app.route("/page1")
 def render_main():
     return render_template('page1.html')
 
 
-@app.route("/")
+@app.route("/page2")
 def render_main():
     return render_template('page2.html')
 
 
-@app.route("/")
+@app.route("/page3")
 def render_main():
     return render_template('page3.html')
 
