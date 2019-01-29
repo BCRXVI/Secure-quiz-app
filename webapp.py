@@ -6,5 +6,20 @@ app = Flask(__name__)
 def render_main():
     return render_template('layout.html')
 
+
+@app.route("/")
+def render_main():
+    return render_template('page1.html')
+
+
+@app.route("/")
+def render_main():
+    return render_template('page2.html')
+
+
+@app.route("/")
+def render_main():
+    return render_template('page3.html')
+
 if __name__=="__main__":
     app.run(debug=True, port=66666)
