@@ -3,4 +3,16 @@
 {%block title%}Home{%endblock%}
 {%block content%}
 <h1>Page 3</h1>
+<form action="/page1">
+	<p>What is the capital of the United States</p>
+		<select name="capitals">
+      			<option value="sacramento">Sacramento</option>
+			<option value="salt lake city">Salt Lake City</option>
+      			<option value="seattle">Seattle</option>
+			<option value="washington d.c.">Washington D.C.</option>
+		</select>
+		<button type="submit">
+			Submit
+		</button>
+	</form>
 {%endblock%}
