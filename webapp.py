@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def render_main():
+    if(buildings="Burj Khalifa"
     return render_template('page1.html')
 
 
