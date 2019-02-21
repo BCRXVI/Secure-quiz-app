@@ -45,7 +45,7 @@ def render_page4():
         numcorrect + 1
     else:
         numcorrect + 0
-       return render_template("page4.html", numcorrect == numcorrect)
+       return render_template("page4.html", numcorrect = numcorrect)
 
 if __name__=="__main__":
     app.run(debug=True, port=66666)
