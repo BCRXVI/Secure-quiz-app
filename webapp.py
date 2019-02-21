@@ -36,15 +36,15 @@ def render_page3():
 @app.route("/page4")
 def render_page4():
     numcorrect == 0
-    if(session["question1"] == "correct")
+    if(session["question1"] == "correct"):
         numcorrect + 1
     else:
         numcorrect + 0
-    if(session["question2"] == "correct")
+    if(session["question2"] == "correct"):
         numcorrect + 1
     else:
         numcorrect + 0
-    if(session["question3"] == "correct")
+    if(session["question3"] == "correct"):
         numcorrect + 1
     else:
         numcorrect + 0
