@@ -1,4 +1,4 @@
-Flask
+Flask-OAuthlib
 itsdangerous
 Jinja2
 MarkupSafe
