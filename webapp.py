@@ -11,7 +11,7 @@ def render_main():
 
 @app.route("/page1")
 def render_page1():
-    if(request.form["buildings"] = "burj khalifa"):
+    if(request.form["buildings"] == "burj khalifa"):
         session["question1"] = "correct"
     else:
         session["question1"] = "incorrect"
@@ -19,7 +19,7 @@ def render_page1():
 
 @app.route("/page2")
 def render_page2():
-    if(request.form["numbers"] = "33"):
+    if(request.form["numbers"] == "33"):
         session["question2"] = "correct"
     else:
         session["question2"] = "incorrect"
@@ -27,7 +27,7 @@ def render_page2():
 
 @app.route("/page3")
 def render_page3():
-    if(request.form["capitals"] = "washington d.c."):
+    if(request.form["capitals"] == "washington d.c."):
         session["question3"] = "correct"
     else:
         session["question3"] = "incorrect"
