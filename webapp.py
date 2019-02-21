@@ -37,15 +37,15 @@ def render_page4():
         numcorrect + 1
     else:
         numcorrect + 0
-    if(session["question2"] = "correct")
+    if(session["question2"] == "correct")
         numcorrect + 1
     else:
         numcorrect + 0
-    if(session["question3"] = "correct")
+    if(session["question3"] == "correct")
         numcorrect + 1
     else:
         numcorrect + 0
-       return render_template("page4.html", numcorrect = numcorrect)
+    return render_template("page4.html", numcorrect = numcorrect)
 
 if __name__=="__main__":
     app.run(debug=True, port=66666)
