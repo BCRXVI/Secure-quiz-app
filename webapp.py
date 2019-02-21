@@ -33,7 +33,20 @@ def render_page3():
        
 @app.route("/page4")
 def render_page4():
-       return 
+    numcorrect = 0
+    if("question1" = correct)
+        numcorrect + 1
+    else:
+        numcorrect + 0
+    if("question2" = correct)
+        numcorrect + 1
+    else:
+        numcorrect + 0
+    if("question3" = correct)
+        numcorrect + 1
+    else:
+        numcorrect + 0
+       return render_template("page4.html", numcorrect = numcorrect)
 
 if __name__=="__main__":
     app.run(debug=True, port=66666)
