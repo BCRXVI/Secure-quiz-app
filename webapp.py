@@ -2,6 +2,9 @@ from flask import Flask, url_for, render_template, request
 import os
 app = Flask(__name__)
 
+app.secret_key = os.environ['SECRET_KEY']
+oauth = OAuth(app)
+
 @app.route("/")
 def render_main():
     return render_template('page1.html')
